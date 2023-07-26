@@ -7,9 +7,9 @@ export default function BookList() {
    return (
       <div>
          <h3>{pageTitle}</h3>
-         <img src={book1} alt="Harry Potter And The Sorcerer's Stone" />
-         <img src={book2} alt="Dragon Rider" />
-         <img src={book3} alt="Twilight" />
+         <img src={book1} width="400" height="500" alt="Harry Potter And The Sorcerer's Stone By J. K. Rowling" />
+         <img src={book2} width="400" height="500" alt="Dragon Rider By Cornelia Funke" />
+         <img src={book3} width="400" height="500" alt="Twilight By Stephenie Meyer" />
       </div>      
    );
 }
